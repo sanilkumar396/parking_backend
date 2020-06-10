@@ -75,6 +75,12 @@
 			<version>7.41.2</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://3.21.190.24:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 	
 	
 	<build>
